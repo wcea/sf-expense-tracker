@@ -12,3 +12,8 @@ package.xml
 #
 
 AppSwitcher.appMenu
+
+# ignore on push
+force-app/main/default/settings/OrgPreference.settings-meta.xml
+# ignore on pull
+OrgPreference.settings
