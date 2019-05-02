@@ -1,0 +1,30 @@
+{
+    "data": 
+    [
+        {
+            "NAME": "Education",
+            "REIMBURSABLE_PERCENTAGE__C": "85.0",
+            "EXPENSE_CATEGORY_DESCRIPTION__C": ""
+        },
+        {
+            "NAME": "Meal",
+            "REIMBURSABLE_PERCENTAGE__C": "50.0",
+            "EXPENSE_CATEGORY_DESCRIPTION__C": ""
+        },
+        {
+            "NAME": "Travel",
+            "REIMBURSABLE_PERCENTAGE__C": "100.0",
+            "EXPENSE_CATEGORY_DESCRIPTION__C": ""
+        },
+        {
+            "NAME": "Gift",
+            "REIMBURSABLE_PERCENTAGE__C": "30.0",
+            "EXPENSE_CATEGORY_DESCRIPTION__C": "Gift"
+        },
+        {
+            "NAME": "Business Meetings",
+            "REIMBURSABLE_PERCENTAGE__C": "100.0",
+            "EXPENSE_CATEGORY_DESCRIPTION__C": ""
+        }
+    ]
+}
