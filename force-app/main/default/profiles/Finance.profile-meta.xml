@@ -5,21 +5,59 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>ExpenseReportSharingTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <!-- <classAccesses>
+        <apexClass>ExpenseReportSharingTestConsultant</apexClass>
+        <enabled>false</enabled>
+    </classAccesses> -->
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Expense_Category__c.Reimbursable_Percentage__c</field>
+        <field>Category__c.Reimbursable_Percentage__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <!-- <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions> -->
+    <!-- <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Currency__c</field>
+        <readable>true</readable>
+    </fieldPermissions> -->
+    <!-- <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions> -->
+    <!-- <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions> -->
+    <!-- <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Exchange_Rate__c</field>
+        <readable>true</readable>
+    </fieldPermissions> -->
+    <!-- <fieldPermissions>
+        <editable>false</editable>
+        <field>Expense_Item__c.Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions> -->
     <fieldPermissions>
         <editable>false</editable>
         <field>Expense_Item__c.Category__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Expense_Item__c.Expense_Category__c</field>
-        <readable>false</readable>
+        <editable>true</editable>
+        <field>Expense_Item__c.Receipt_Id__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -31,8 +69,18 @@
         <field>Expense_Report__c.Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Report__c.Currency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Report__c.Paid_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
-        <layout>Expense_Category__c-Expense Category Layout</layout>
+        <layout>Category__c-Expense Category Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Expense_Item__c-Expense Item Layout</layout>
@@ -46,7 +94,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Expense_Category__c</object>
+        <object>Category__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -68,7 +116,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>Expense_Category__c</tab>
+        <tab>Category__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -188,10 +236,10 @@
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
-    <userPermissions>
+    <!-- <userPermissions>
         <enabled>true</enabled>
         <name>FieldServiceAccess</name>
-    </userPermissions>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>ImportPersonal</name>
@@ -224,10 +272,10 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
-    <userPermissions>
+    <!-- <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>
-    </userPermissions>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
