@@ -52,6 +52,16 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Expense Report</label>
+    <nameField>
+        <label>Expense Report Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Expense Reports</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Amount__c</fullName>
         <description>The amount of the expense report</description>

@@ -12,11 +12,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Reimbursable_Percentage__c</field>
+                <field>Expense_Item__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Expense_Category_Description__c</field>
+                <field>Category__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -57,7 +57,7 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>Expense_Item__c.Expense_Category__c</relatedList>
+        <relatedList>Expense_Item__c.Category__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
