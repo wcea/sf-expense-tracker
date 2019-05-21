@@ -49,75 +49,49 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Expense_Category_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Expense Category Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Reimbursable_Percentage__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Reimbursable Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
     <label>Expense Category</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Reimbursable_Percentage__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <label>Category Name</label>
+        <label>Expense Category Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Expense Categories</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <startsWith>Vowel</startsWith>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Expense_category_reimbursable_percent</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(  Reimbursable_Percentage__c  &lt; 0.00, Reimbursable_Percentage__c &gt; 1.00)</errorConditionFormula>
+        <errorDisplayField>Reimbursable_Percentage__c</errorDisplayField>
+        <errorMessage>Percent cannot exceed 100% or cannot be lower than 0%</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
-    <fields>
-        <fullName>Category__c</fullName>
-        <description>Preset expense category options</description>
-        <externalId>false</externalId>
-        <label>Expense Category</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Meals</fullName>
-                    <default>false</default>
-                    <label>Meals</label>
-                </value>
-                <value>
-                    <fullName>Housing</fullName>
-                    <default>false</default>
-                    <label>Housing</label>
-                </value>
-                <value>
-                    <fullName>Auto lease</fullName>
-                    <default>false</default>
-                    <label>Auto lease</label>
-                </value>
-                <value>
-                    <fullName>Auto insurance</fullName>
-                    <default>false</default>
-                    <label>Auto insurance</label>
-                </value>
-                <value>
-                    <fullName>Marketing</fullName>
-                    <default>false</default>
-                    <label>Marketing</label>
-                </value>
-                <value>
-                    <fullName>Travel</fullName>
-                    <default>false</default>
-                    <label>Travel</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-        <visibleLines>4</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Expense_Item__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Expense Item</label>
-        <referenceTo>Expense_Item__c</referenceTo>
-        <relationshipLabel>Expense Categories</relationshipLabel>
-        <relationshipName>Expense_Categories</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
 </CustomObject>

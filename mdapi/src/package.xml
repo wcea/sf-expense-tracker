@@ -1,60 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types>
-    <name>CustomApplication</name>
-    <members>Buttercup</members>
-  </types>
-  <types>
-    <name>ApexClass</name>
-    <members>Dog</members>
-    <members>ExpenseReportSharingTest</members>
-    <members>Scottie</members>
-  </types>
-  <types>
-    <name>ContentAsset</name>
-    <members>zenstones2774524_1280</members>
-  </types>
-  <types>
-    <name>FlexiPage</name>
-    <members>Buttercup</members>
-    <members>PTC_Expense_Tracker_UtilityBar</members>
-  </types>
-  <types>
-    <name>Layout</name>
-    <members>Category__c-Expense Category Layout</members>
-    <members>Expense_Item__c-Expense Item Layout</members>
-    <members>Expense_Report__c-Expense Report Layout</members>
-  </types>
-  <types>
-    <name>CustomObject</name>
-    <members>Category__c</members>
-    <members>Expense_Item__c</members>
-    <members>Expense_Report__c</members>
-  </types>
-  <types>
-    <name>CustomField</name>
-    <members>Category__c.Category__c</members>
-    <members>Category__c.Expense_Item__c</members>
-    <members>Expense_Item__c.Expense_Report__c</members>
-    <members>Expense_Report__c.Amount__c</members>
-  </types>
-  <types>
-    <name>Profile</name>
-    <members>Admin</members>
-    <members>Consultant</members>
-    <members>Custom%3A Marketing Profile</members>
-    <members>Custom%3A Sales Profile</members>
-    <members>Custom%3A Support Profile</members>
-    <members>Custom%3AMarketingProfile</members>
-    <members>Custom%3ASalesProfile</members>
-    <members>Custom%3ASupportProfile</members>
-    <members>Finance</members>
-  </types>
-  <types>
-    <name>CustomTab</name>
-    <members>Category__c</members>
-    <members>Expense_Item__c</members>
-    <members>Expense_Report__c</members>
-  </types>
-  <version>45.0</version>
+    <types>
+        <members>ExpenseReportSharingTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Expense_Tracker</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Category__c.Reimbursable_Percentage__c</members>
+        <members>Expense_Item__c.Category__c</members>
+        <members>Expense_Item__c.Expense_Category__c</members>
+        <members>Expense_Item__c.Reimbursed_Amount__c</members>
+        <members>Expense_Report__c.Amount__c</members>
+        <members>Expense_Report__c.Expense_Item__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Category__c</members>
+        <members>Expense_Item__c</members>
+        <members>Expense_Report__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Category__c</members>
+        <members>Expense_Item__c</members>
+        <members>Expense_Report__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Expense_Reports_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Category__c-Expense Category Layout</members>
+        <members>Expense_Item__c-Expense Item Layout</members>
+        <members>Expense_Report__c-Expense Report Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Category__c.All</members>
+        <members>Expense_Report__c.All</members>
+        <members>Expense_Report__c.All_Expense_reports</members>
+        <members>Expense_Report__c.All_Expenses</members>
+        <members>Expense_Report__c.My_New_Expense_Reports</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>sfdx_travis_ci</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Consultant</members>
+        <members>Finance</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Category__c.Expense_category_reimbursable_percent</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>45.0</version>
 </Package>

@@ -52,6 +52,28 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Expense_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Expense Category</label>
+        <referenceTo>Expense_Category__c</referenceTo>
+        <relationshipLabel>Expense Items</relationshipLabel>
+        <relationshipName>Expense_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Reimbursed_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Reimbursed Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
     <label>Expense Item</label>
     <nameField>
         <label>Expense Item Name</label>
@@ -59,7 +81,7 @@
     </nameField>
     <pluralLabel>Expense Items</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
     <fields>
