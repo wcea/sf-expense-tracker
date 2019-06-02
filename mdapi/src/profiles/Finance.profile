@@ -23,7 +23,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Expense_Item__c.Expense_Category__c</field>
+        <field>Expense_Item__c.Category__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

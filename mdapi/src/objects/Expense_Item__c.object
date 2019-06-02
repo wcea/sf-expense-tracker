@@ -53,11 +53,11 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Expense_Category__c</fullName>
+        <fullName>Category__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Expense Category</label>
-        <referenceTo>Expense_Category__c</referenceTo>
+        <referenceTo>Category__c</referenceTo>
         <relationshipLabel>Expense Items</relationshipLabel>
         <relationshipName>Expense_Items</relationshipName>
         <required>false</required>
