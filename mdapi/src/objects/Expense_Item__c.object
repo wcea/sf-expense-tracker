@@ -82,5 +82,19 @@
     <pluralLabel>Expense Items</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
+    <fields>
+        <fullName>Expense_Report__c</fullName>
+        <externalId>false</externalId>
+        <label>Expense Report</label>
+        <referenceTo>Expense_Report__c</referenceTo>
+        <relationshipLabel>Expense Items</relationshipLabel>
+        <relationshipName>Expense_Items</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
 </CustomObject>

@@ -23,6 +23,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Expense_Item__c.Expense_Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Expense_Item__c.Reimbursed_Amount__c</field>
         <readable>false</readable>
     </fieldPermissions>

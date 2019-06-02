@@ -9,46 +9,37 @@
         <apexClass>ExpenseReportSharingTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <!-- <classAccesses>
-        <apexClass>ExpenseReportSharingTestConsultant</apexClass>
-        <enabled>false</enabled>
-    </classAccesses> -->
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>Category__c.Reimbursable_Percentage__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <!-- <fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Expense_Item__c.Amount__c</field>
         <readable>true</readable>
-    </fieldPermissions> -->
-    <!-- <fieldPermissions>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Expense_Item__c.Currency__c</field>
         <readable>true</readable>
-    </fieldPermissions> -->
-    <!-- <fieldPermissions>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Expense_Item__c.Date__c</field>
         <readable>true</readable>
-    </fieldPermissions> -->
-    <!-- <fieldPermissions>
+    </fieldPermissions> 
+    <fieldPermissions>
         <editable>true</editable>
         <field>Expense_Item__c.Description__c</field>
         <readable>true</readable>
-    </fieldPermissions> -->
-    <!-- <fieldPermissions>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Expense_Item__c.Exchange_Rate__c</field>
         <readable>true</readable>
-    </fieldPermissions> -->
-    <!-- <fieldPermissions>
-        <editable>false</editable>
-        <field>Expense_Item__c.Category__c</field>
-        <readable>false</readable>
-    </fieldPermissions> -->
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Expense_Item__c.Category__c</field>

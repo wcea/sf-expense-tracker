@@ -140,18 +140,18 @@ public class ExpenseItemTriggerTest {
     static void makeData() {
         List<Category__c> categories = new List<Category__c>();
 
-        categories.add(
-            new Category__c(
-                Name = 'Gasoline',
-                Reimbursable_Percentage__c = 100
-            )
-        );
-        categories.add(
-            new Category__c(
-                Name = 'Meals',
-                Reimbursable_Percentage__c = 50
-            )
-        );
+        // categories.add(
+        //     new Category__c(
+        //         Name = 'Gasoline',
+        //         Reimbursable_Percentage__c = 100
+        //     )
+        // );
+        // categories.add(
+        //     new Category__c(
+        //         Name = 'Meals',
+        //         Reimbursable_Percentage__c = 50
+        //     )
+        // );
     
     insert categories;
       
