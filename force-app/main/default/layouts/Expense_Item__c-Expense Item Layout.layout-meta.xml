@@ -10,17 +10,13 @@
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
-            <layoutItems>
+            <!-- <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Reimbursed_Amount__c</field>
-            </layoutItems>
+            </layoutItems> -->
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Category__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Expense_Category__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>

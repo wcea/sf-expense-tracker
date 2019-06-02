@@ -5,6 +5,10 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>ExpenseReportSharingTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -12,14 +16,39 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Expense_Item__c.Category__c</field>
-        <readable>false</readable>
+        <editable>true</editable>
+        <field>Expense_Item__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Currency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions> 
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Exchange_Rate__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Expense_Item__c.Category__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Receipt_Id__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -29,6 +58,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Expense_Report__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Report__c.Currency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Report__c.Paid_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -188,10 +227,10 @@
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
-    <userPermissions>
+    <!-- <userPermissions>
         <enabled>true</enabled>
         <name>FieldServiceAccess</name>
-    </userPermissions>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>ImportPersonal</name>
@@ -224,10 +263,10 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
-    <userPermissions>
+    <!-- <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>
-    </userPermissions>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>

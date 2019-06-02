@@ -16,17 +16,17 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Expense_Category__c.Reimbursable_Percentage__c</field>
+        <field>Category__c.Reimbursable_Percentage__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    # <fieldPermissions>
+    #     <editable>false</editable>
+    #     <field>Expense_Item__c.Category__c</field>
+    #     <readable>false</readable>
+    # </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Expense_Item__c.Category__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Expense_Item__c.Expense_Category__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -40,7 +40,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Expense_Category__c-Expense Category Layout</layout>
+        <layout>Category__c-Expense Category Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Expense_Item__c-Expense Item Layout</layout>
@@ -49,7 +49,7 @@
         <layout>Expense_Report__c-Expense Report Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
-        <tab>Expense_Category__c</tab>
+        <tab>Category__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -193,10 +193,10 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
-    <userPermissions>
+    <!-- <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>
-    </userPermissions>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>ShowCompanyNameAsUserBadge</name>

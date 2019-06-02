@@ -12,6 +12,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Reimbursable_Percentage__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Expense_Category_Description__c</field>
                 <field>Expense_Item__c</field>
             </layoutItems>
             <layoutItems>

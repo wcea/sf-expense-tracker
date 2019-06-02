@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Buttercup</application>
+        <application>Expense_Tracker</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>Dog</apexClass>
+        <apexClass>ExpenseReportSharingTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>Scottie</apexClass>
+    <!-- <classAccesses>
+        <apexClass>ExpenseReportSharingTestConsultant</apexClass>
         <enabled>true</enabled>
-    </classAccesses>
+    </classAccesses> -->
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Category__c.Category__c</field>
+        <field>Category__c.Reimbursable_Percentage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    # <fieldPermissions>
+    #     <editable>true</editable>
+    #     <field>Expense_Item__c.Category__c</field>
+    #     <readable>true</readable>
+    # </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense_Item__c.Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Category__c.Expense_Item__c</field>
+        <field>Expense_Item__c.Reimbursed_Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -322,6 +332,10 @@
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
+    <!-- <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceAccess</name>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>FieldServiceAccess</name>
@@ -578,6 +592,10 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
+    <!-- <userPermissions>
+        <enabled>true</enabled>
+        <name>SendExternalEmailAvailable</name>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>

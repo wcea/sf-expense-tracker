@@ -8,9 +8,14 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Expense_Category__c.Reimbursable_Percentage__c</field>
+        <field>Category__c.Reimbursable_Percentage__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    # <fieldPermissions>
+    #     <editable>false</editable>
+    #     <field>Expense_Item__c.Category__c</field>
+    #     <readable>false</readable>
+    # </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Expense_Item__c.Category__c</field>
@@ -32,7 +37,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Expense_Category__c-Expense Category Layout</layout>
+        <layout>Category__c-Expense Category Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Expense_Item__c-Expense Item Layout</layout>
@@ -46,7 +51,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Expense_Category__c</object>
+        <object>Category__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -68,7 +73,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>Expense_Category__c</tab>
+        <tab>Category__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -188,10 +193,10 @@
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
-    <userPermissions>
+    <!-- <userPermissions>
         <enabled>true</enabled>
         <name>FieldServiceAccess</name>
-    </userPermissions>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>ImportPersonal</name>
@@ -224,10 +229,10 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
-    <userPermissions>
+    <!-- <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>
-    </userPermissions>
+    </userPermissions> -->
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
