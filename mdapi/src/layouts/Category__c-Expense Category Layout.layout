@@ -16,7 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Expense_Category_Description__c</field>
+                <field>Category_Description__c</field>
                 <field>Expense_Item__c</field>
             </layoutItems>
             <layoutItems>

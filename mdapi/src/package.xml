@@ -11,7 +11,7 @@
     <types>
         <members>Category__c.Reimbursable_Percentage__c</members>
         <members>Expense_Item__c.Category__c</members>
-        <members>Expense_Item__c.Expense_Category__c</members>
+        <members>Expense_Item__c.Category__c</members>
         <members>Expense_Item__c.Reimbursed_Amount__c</members>
         <members>Expense_Report__c.Amount__c</members>
         <members>Expense_Report__c.Expense_Item__c</members>
@@ -57,7 +57,7 @@
         <name>Profile</name>
     </types>
     <types>
-        <members>Category__c.Expense_category_reimbursable_percent</members>
+        <members>Category__c.Category_reimbursable_percent</members>
         <name>ValidationRule</name>
     </types>
     <version>45.0</version>

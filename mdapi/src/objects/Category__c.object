@@ -53,7 +53,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Expense_Category_Description__c</fullName>
+        <fullName>Category_Description__c</fullName>
         <externalId>false</externalId>
         <label>Expense Category Description</label>
         <required>false</required>
@@ -87,7 +87,7 @@
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
     <validationRules>
-        <fullName>Expense_category_reimbursable_percent</fullName>
+        <fullName>Category_reimbursable_percent</fullName>
         <active>true</active>
         <errorConditionFormula>OR(  Reimbursable_Percentage__c  &lt; 0.00, Reimbursable_Percentage__c &gt; 1.00)</errorConditionFormula>
         <errorDisplayField>Reimbursable_Percentage__c</errorDisplayField>
