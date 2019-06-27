@@ -14,5 +14,5 @@
     <navType>Standard</navType>
     <tabs>Expense_Report__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>PTC_Expense_Tracker_UtilityBar</utilityBar>
+    <!-- <utilityBar>PTC_Expense_Tracker_UtilityBar</utilityBar> -->
 </CustomApplication>

@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <label>Expense Item</label>
     <referenceTo>Expense_Item__c</referenceTo>
-    <relationshipLabel>Expense Categories</relationshipLabel>
-    <relationshipName>Expense_Categories</relationshipName>
+    <relationshipLabel>Categories</relationshipLabel>
+    <relationshipName>Categories</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

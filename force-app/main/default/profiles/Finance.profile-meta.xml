@@ -52,7 +52,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Expense_Item__c.Reimbursed_Amount__c</field>
+        <field>Expense_Item__c.Reimbursable_Amount__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
