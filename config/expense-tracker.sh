@@ -18,5 +18,5 @@
 	   sfdx force:user:create -f config/finance-user-def.json
 	   sfdx force:org:open -u TestOrg
 	   sfdx force:org:delete -u TestOrg
-	   sfdx force:data:tree:import --targetusername TestOrg --plan data/export-Expense_Category__c-plan.json
+	   sfdx force:data:tree:import --targetusername TestOrg --plan data/Category.json
 	fi

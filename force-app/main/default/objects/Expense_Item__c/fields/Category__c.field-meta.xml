@@ -3,7 +3,7 @@
     <fullName>Category__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Expense Category</label>
+    <label>Category</label>
     <referenceTo>Category__c</referenceTo>
     <relationshipLabel>Expense Items</relationshipLabel>
     <relationshipName>Expense_Items</relationshipName>
